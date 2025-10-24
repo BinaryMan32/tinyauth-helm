@@ -40,7 +40,7 @@ securityContext: {}
   # runAsUser: 1000
 
 service:
-  type: ClusterIP # @schema default: "ClusterIP"
+  type: Illegal # @schema default: "ClusterIP"
   port: 80 # @schema default: 80
 
 # TinyAuth Configuration
